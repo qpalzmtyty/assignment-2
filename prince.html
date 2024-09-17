@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="reading-block">
+        <h1>Название книги</h1>
+        <p><strong>Автор: Имя Автора</strong></p>
+
+        <!-- Начало первой главы -->
+        <h2>Глава 1: Название главы</h2>
+        <p>Это начало текста первой главы. Здесь можно писать длинный текст, который может включать несколько абзацев.</p>
+        <p>Это продолжение текста первой главы. Вы можете добавлять столько абзацев, сколько необходимо.</p>
+
+        <!-- Следующие главы -->
+        <h2>Глава 2: Название главы</h2>
+        <p>Текст второй главы начинается здесь. Продолжайте текст, как вам нужно.</p>
+    </section>
+    <div class="header header_reader headroom headroom--top headroom--not-bottom">
+    <div class="reader-header__wrapper">
+        <div class="reader-header-action reader-header-action_icon" data-toggle-menu="">
+            <i class="fa fa-bars fa-fw"></i>
+        </div>
+
+        <div class="reader-header-actions" data-media-up="md">
+            <a href="#" data-disabled="" class="reader-header-action reader-header-action_icon">
+                <i class="fa fa-angle-left fa-lg"></i>
+            </a>
+            <div class="reader-header-action" data-reader-modal="chapters">
+                <div class="reader-header-action__title">Оглавление</div>
+                <div class="reader-header-action__text">
+                    Том 1 Глава 1
+                </div>
+            </div>
+            <a href="https://mangalib.me/bungou-stray-dogs-wan/v1/c2" class="reader-header-action reader-header-action_icon">
+                <i class="fa fa-angle-right fa-lg"></i>
+            </a>
+        </div>
+        <div class="reader-header-actions reader-header-actions_right">
+            <div class="reader-header-action reader-header-action_icon reader-bookmark " id="add-chapter-bookmark" data-tippy-content="Добавить закладку">
+                  <span class="reader-header__icon">
+                    <i class="fa fa-bookmark reader-bookmark__icon reader-bookmark__icon_default"></i>
+                    <i class="fa fa-bookmark reader-bookmark__icon reader-bookmark__icon_marked"></i>
+                    <i class="fa fa-bookmark reader-bookmark__icon reader-bookmark__icon_ghost"></i>
+                  </span>
+            </div>
+            <div class="reader-header-action reader-header-action_icon" data-reader-modal="chapters" data-media-down="md">
+                <span class="reader-header__icon">
+                  <i class="fa fa-list-ol"></i>
+                </span>
+            </div>
+            <div class="dropdown">
+                <div data-dropdown="" class="reader-header-action reader-header-action_icon" data-media-down="md" aria-expanded="false">
+                  <span class="reader-header__icon">
+                    <i class="fa fa-ellipsis-v"></i>
+                  </span>
+                </div>
+                <div class="menu-template">
+
+                </div>
+
+            </div>
+            <div class="reader-header-action reader-header-action_icon" tabindex="-1" data-open-modal="#image-error-message" data-media-up="md">
+                <span class="reader-header__icon">
+                  <i class="fa fa-exclamation"></i>
+                </span>
+            </div>
+            <div class="reader-header-action reader-header-action_icon" tabindex="-1" data-reader-modal="settings" data-media-up="md">
+                <span class="reader-header__icon">
+                  <i class="fa fa-cog"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
